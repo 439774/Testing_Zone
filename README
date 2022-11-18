@@ -8,3 +8,8 @@ The modules used for these are - {
 Documantation for selenium! - {
     https://selenium-python.readthedocs.io/navigating.html#interacting-with-the-page
 }
+
+Selenium Notes - {
+    To use the function "By" You have to import it from \
+    "selenium.webdriver.common.by"
+}
