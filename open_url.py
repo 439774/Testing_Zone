@@ -1,5 +1,10 @@
-import webbrowser
+from selenium import webdriver
+import time
 
-url = 'https://sso.teachable.com/secure/teachable_accounts/sign_in'
+driver = webdriver.Chrome()
 
-webbrowser.open_new_tab(url)
+driver.get('https://sso.teachable.com/secure/teachable_accounts/sign_in')
+
+time.sleep(5)
+
+element_teach = driver.find_element(By.NAME, "teachable_account[email]")
