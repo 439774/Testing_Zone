@@ -1,1 +1,10 @@
-This is me!
+Hello!
+
+The modules used for these are - {
+    selenium, webbrowser, time, random
+}
+
+
+Documantation for selenium! - {
+    https://selenium-python.readthedocs.io/navigating.html#interacting-with-the-page
+}
