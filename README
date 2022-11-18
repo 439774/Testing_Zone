@@ -1,15 +1,23 @@
 Hello!
 
 The modules used for these are - {
-    selenium, webbrowser, time, random
+    selenium, webbrowser, time, random, pyautogui
 }
 
 
 Documantation for selenium! - {
     https://selenium-python.readthedocs.io/navigating.html#interacting-with-the-page
 }
-
+\|/
 Selenium Notes - {
-    To use the function "By" You have to import it from \
+    To use the module "By" You have to import it from \
     "selenium.webdriver.common.by"
+}
+
+Documantation for pyautogui! - {
+    https://www.geeksforgeeks.org/mouse-keyboard-automation-using-python/
+}
+\|/
+Pyautogui Notes - {
+    To use this module you have install with pip3, to get your screen resolation "print(pyautogui.size())" also the cordinate module for pyautogui is here! -"https://media.geeksforgeeks.org/wp-content/uploads/MouseAndKeyboardAutomationPython.png"
 }
